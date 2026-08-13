@@ -67,14 +67,26 @@
                <ul class="actions">
     <li>
         <a href="https://github.com/chrisappiah4/CubeSAT-Mission" class="icon brands fa-github" target="_blank" 
-           style="display: inline-flex; align-items: center; justify-center: center; width: 3.5rem; height: 3.5rem; border: solid 1px rgba(255, 255, 255, 0.25); border-radius: 100%; text-align: center; line-height: 3.5rem; font-size: 1.25rem;">
-            <span class="label">GitHub</span>
+           style="display: inline-flex; align-items: center; justify-content: center; width: 3.5rem; height: 3.5rem; border: solid 1px rgba(255, 255, 255, 0.25); border-radius: 100%; text-indent: 0 !important;">
+            <span class="label" style="display: none;">GitHub</span>
         </a>
     </li>
     <li>
         <a href="index.html#work" class="button">Back to Portfolio</a>
     </li>
 </ul>
+
+<style>
+    /* Shrinks the injected pseudo-element icon to keep it inside the circle boundaries */
+    #project-details .fa-github:before {
+        font-size: 1.35rem !important;
+        width: auto !important;
+        height: auto !important;
+        line-height: 1 !important;
+        margin: 0 !important;
+    }
+</style>
+
 
 
 
